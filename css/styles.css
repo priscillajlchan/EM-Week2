@@ -1,0 +1,109 @@
+@import 'normalize.css';
+@import 'font-awesome.min.css';
+
+/* Adding box sizing to everything i mean EVERYTHING! */
+
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clear fix */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/* You may edit from this line on */
+
+
+/* Wrapper for everything keeping it tidy since 2013*/
+.wrapper {
+	width: 90%;
+	max-width: 960px; 
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+/* Evenutally become our Gallery */
+.banner {
+	width: 100%;
+	background-color: #fff;
+	padding:10px;
+}
+/* The image in the gallery*/
+.banner img {
+	width: 100%;
+}
+
+/* Set the post container size and colour*/
+.posts {
+	width: 100%;
+	background-color: #3878B0;
+}
+
+/*Set each blog post to be half the width of our container*/
+.post {
+	width: 48%;
+	background-color: #43B7BF;
+	padding: 5px 15px;
+	float: left;
+	margin-right: 2%;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+/*Fix the even post to move over correctly*/
+.post:nth-child(even){
+	/*margin-right: -2%;
+	margin-left: 2%;*/
+}
+
+/*Give the image some width direction to make sure it stays in the box*/
+.post img {
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
